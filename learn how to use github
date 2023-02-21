@@ -1,0 +1,2 @@
+a=(int(inpt("how old are you?"))
+print("10 years later your age:",a+10)
