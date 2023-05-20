@@ -1,0 +1,43 @@
+'''
+画花
+import turtle
+turtle.color('pink','grey')
+turtle.begin_fill()
+turtle.speed(2)
+n=100
+m=100
+for i in range(20):
+    turtle.forward(n)
+    turtle.left(m)
+    m+=1
+    n+=1
+turtle.end_fill()
+turtle.done()
+'''
+'''
+画五角星
+import turtle
+import time
+n=500
+m=400
+turtle.color('grey','orange')
+turtle.pensize(3)
+turtle.hideturtle()
+turtle.begin_fill()
+for i in range(5):
+    turtle.forward(300)
+    turtle.right(144)
+turtle.end_fill()
+time.sleep(1)
+turtle.speed(2)
+for j in range(2):
+    turtle.penup()
+    turtle.speed(2)
+    turtle.goto(-n, -m)
+    turtle.color('pink')
+    turtle.write('婷菲', font=('Arial', 200, 'normal'))
+    m-=300
+
+turtle.done()
+
+'''
